@@ -1,0 +1,160 @@
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: 'Poppins', Arial, sans-serif;
+    background: linear-gradient(135deg, #fbc2eb, #a6c1ee);
+    padding: 20px;
+    background-repeat: no-repeat;   /* repeat band */
+    background-size: cover;         /* full screen ek hi baar */
+    background-position: center;    /* center se fit */
+}
+
+
+/* Heading */
+h1 {
+    text-align: center;
+    font-size: 34px;
+    font-weight: 700;
+    color: #222;
+    margin-bottom: 20px;
+}
+
+/* Main Buttons */
+.btn {
+    background: linear-gradient(to right, #667eea, #764ba2);
+    border: none;
+    border-radius: 25px;
+    width: 170px;
+    height: 45px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    transform: translateY(-3px) scale(1.05);
+    background: linear-gradient(to right, #43cea2, #185a9d);
+}
+
+/* Secondary button */
+.bt {
+    background: linear-gradient(to right, #ff758c, #ff7eb3);
+    border: none;
+    border-radius: 20px;
+    width: 120px;
+    height: 35px;
+    margin-left: 170px;
+    margin-bottom: 10px;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.25);
+    transition: 0.3s;
+}
+
+.bt:hover {
+    transform: scale(1.05);
+    background: linear-gradient(to right, #fa709a, #fee140);
+}
+
+/* Table Container (Glass Effect) */
+.table-container {
+    margin-bottom: 30px;
+    padding: 20px;
+    font-size: 15px;
+    background: rgba(255,255,255,0.35);
+    backdrop-filter: blur(12px);
+    border-radius: 20px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.3);
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Table Cells */
+th, td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+/* Table Header */
+th {
+    background: linear-gradient(to right, #667eea, #764ba2);
+    color: white;
+    font-weight: 600;
+}
+
+/* Row hover */
+tr:hover {
+    background: rgba(255,255,255,0.4);
+}
+
+/* Action Buttons */
+.action-btn {
+    border: none;
+    border-radius: 8px;
+    padding: 6px 10px;
+    margin: 3px;
+    font-size: 14px;
+    cursor: pointer;
+    color: white;
+    background: linear-gradient(to right, #36d1dc, #5b86e5);
+    box-shadow: 0 5px 12px rgba(0,0,0,0.25);
+    transition: 0.3s;
+}
+
+.action-btn:hover {
+    transform: scale(1.1);
+    background: linear-gradient(to right, #ff512f, #dd2476);
+}
+
+/* Output */
+#output {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    color: #222;
+}
+
+/* History Modal */
+#historyModal {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    padding: 25px;
+    overflow-y: auto;
+}
+
+#historyModal ul {
+    list-style: none;
+    padding: 0;
+}
+
+#historyModal ul li {
+    margin: 12px 0;
+}
+
+/* History Button */
+#historyModal button {
+    background: white;
+    border: none;
+    border-radius: 20px;
+    width: 90px;
+    height: 40px;
+    margin-top: 20px;
+    font-size: 14px;
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
